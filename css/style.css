@@ -30,8 +30,69 @@ header{
     padding: 3% 6%;
     border-radius: 5px;
     margin-top: 5%;
+    cursor: pointer;
 }
 #flower-pic{
     width: 32%;
     padding: 3% 15% 0% 0%;
+}
+.featured-container{
+    padding-top: 10%;
+}
+.featured-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+.featured-description{
+    text-align: center;
+    font-size: 13px;
+    color: #7b7b7b;
+}
+.flower-details{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 13%;
+}
+.flower-1{
+    background: #F2DEE7;
+    width: 300px;
+    height: 338px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-2{
+    background: #DAEFF1;
+    width: 300px;
+    height: 338px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-3{
+    background: #E3ECDB;
+    width: 300px;
+    height: 338px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#flower-pic-1{
+    width: 62%;
+    margin-top: 27%;
+    margin-left: 18%;
+}
+#flower-pic-2{
+    width: 70%;
+    margin: 30% 0% 13% 15%;
+}
+#flower-pic-3{
+    width: 63%;
+    margin-top: 18%;
+    margin-left: 20%;
+}
+.flower-name{
+    margin: 5% auto;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    width: 41%;
 }
