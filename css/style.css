@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: lato;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #FCEEF1;
+}
+.moto{
+    padding: 10% 0% 0% 10%;
+}
+#header-moto{
+    font-size: 54px;
+    font-weight: 800;
+}
+.moto-description{
+    font-size: 13px;
+    color: #7b7b7b;
+    margin-top: 5%;
+}
+.shop-button{
+    border: 0;
+    background: #E55473;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 3% 6%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+#flower-pic{
+    width: 32%;
+    padding: 3% 15% 0% 0%;
+}
