@@ -38,7 +38,7 @@ header{
 .featured-container{
     padding-top: 10%;
 }
-.featured-title, .social-title{
+.featured-title, .social-title, .subscribe-title{
     text-align: center;
     font-size: 30px;
     font-weight: 800;
@@ -139,4 +139,25 @@ header{
 }
 .social-image{
     width: 23%;
+}
+.subscribe{
+    padding: 10% 10%;
+}
+.form{
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 10% 10%;
+}
+input[type=email]{
+    border: 0;
+}
+.subscribe-button{
+    border: 0;
+    background: #E55473;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 3% 6%;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor: pointer;
 }
