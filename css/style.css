@@ -38,11 +38,11 @@ header{
 .featured-container{
     padding-top: 10%;
 }
-.featured-title{
+.featured-title, .social-title{
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    margin-bottom: 1%;
+    padding: 10% 0% 1%;
 }
 .featured-description{
     text-align: center;
@@ -131,4 +131,12 @@ header{
     color: #7B7B7B;
     font-size: 13px;
     padding-top: 2%;
+}
+.social-images{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 13%;
+}
+.social-image{
+    width: 23%;
 }
