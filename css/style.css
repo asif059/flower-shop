@@ -96,3 +96,17 @@ header{
     border-bottom: 2px solid;
     width: 41%;
 }
+.delivery-container{
+    
+    padding: 10% 20%;
+}
+.delivery-features{
+    display: flex;
+    justify-content: space-evenly;
+    background: #F4F4F4;
+}
+.features-1{
+    text-align: center;
+    color: #272727;
+    padding: 5% 0%;
+}
