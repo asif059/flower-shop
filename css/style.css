@@ -124,7 +124,7 @@ header{
     font-size: 25px;
     font-weight: 800;
 }
-#sale-off{
+.sale-off{
     color: #E55473;
 }
 #sale-description{
@@ -141,23 +141,50 @@ header{
     width: 23%;
 }
 .subscribe{
-    padding: 10% 10%;
+    padding: 4% 14% 6%;
 }
 .form{
     background-image: url('../Flower-Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    padding: 10% 10%;
+    padding: 2% 10% 8%;
+    border-radius: 5px;
 }
 input[type=email]{
     border: 0;
+    padding: 2% 51% 2% 2%;
+    border-radius: 3px;
+}
+#subscribe-form{
+    padding: 4% 14%;
 }
 .subscribe-button{
     border: 0;
     background: #E55473;
     color: #FFFFFF;
     font-size: 15px;
-    padding: 3% 6%;
+    padding: 2% 4%;
     border-radius: 5px;
-    margin-top: 5%;
     cursor: pointer;
+}
+footer{
+    background: #000000;
+    padding: 6% 0;
+}
+.footer-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 1%;
+}
+.footer-description{
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+.footer-rights{
+    text-align: center;
+    color: #BFBFBF;
+    font-size: 10px;
+    padding-top: 1%;
 }
